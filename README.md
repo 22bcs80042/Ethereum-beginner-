@@ -12,10 +12,10 @@ create a contract together to fulfill the following requirements:
 5. Lastly,  burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
 ## Description
-This program  contract written in Solidity by using a simple contract, a programming language used for developing smart contracts on the Ethereum blockchain.
+This program  written in Solidity by using a simple contract, solidity is  a programming language used for developing smart contracts on the Ethereum blockchain.
 This contract contain with name MyToken has 3 public access variable that contain (Token Name,Token Abbreviation and Total supply)
 Then we mapped address into balances.
-Then we use a Function with name Mint that increase the total and  increases the balance of the (sender) address by that amount.
+Then we use a Function with name Mint that increase the total supply and  increases the balance of the (sender) address by that amount.
 Then we use  burn function to burn the balance and subtract the burn amount from total_supply and balances of the address provided.
 Here,  we  have to provided a if statement to check balance is greater than the value to be burnt, if balance is less than value than the further code will not execute.
 
